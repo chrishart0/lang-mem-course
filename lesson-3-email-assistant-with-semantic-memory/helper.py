@@ -13,6 +13,7 @@ def get_openai_api_key():
     openai_api_key = os.getenv("OPENAI_API_KEY")
     return openai_api_key
 
+
 def save_png(png):
     # Write png to a file
     # Get path of current file
